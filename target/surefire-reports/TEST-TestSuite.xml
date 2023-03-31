@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.08" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork/target/test-classes:/Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork/target/classes:/Users/sjebamalai/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/sjebamalai/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/sjebamalai/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/sjebamalai/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/sjebamalai/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/sjebamalai/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sjebamalai/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/sjebamalai/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/sjebamalai/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sjebamalai/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/sjebamalai/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/sjebamalai/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/sjebamalai/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/sjebamalai/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/sjebamalai/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/sjebamalai/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/sjebamalai/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/sjebamalai/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/sjebamalai/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/sjebamalai/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/sjebamalai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/sjebamalai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/sjebamalai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/sjebamalai/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/sjebamalai/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/sjebamalai/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sjebamalai/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sjebamalai/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/sjebamalai/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/sjebamalai/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/sjebamalai/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/sjebamalai/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/sjebamalai/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/sjebamalai/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/sjebamalai/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sjebamalai/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/sjebamalai/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/sjebamalai/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/sjebamalai/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/sjebamalai/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/sjebamalai/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/sjebamalai/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/sjebamalai/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/sjebamalai/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/sjebamalai/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/sjebamalai/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/sjebamalai/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/sjebamalai/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/sjebamalai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/sjebamalai/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/sjebamalai/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/sjebamalai/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/sjebamalai/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sjebamalai/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/sjebamalai/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/sjebamalai/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sjebamalai/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/sjebamalai/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/sjebamalai/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/sjebamalai/.m2/repository/org/apache/poi/poi-ooxml/5.2.2/poi-ooxml-5.2.2.jar:/Users/sjebamalai/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.2/poi-ooxml-lite-5.2.2.jar:/Users/sjebamalai/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar:/Users/sjebamalai/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/sjebamalai/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/sjebamalai/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/sjebamalai/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork/target/surefire/surefirebooter-20230330222652572_3.jar /Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork/target/surefire 2023-03-30T22-26-52_386-jvmRun1 surefire-20230330222652572_1tmp surefire_0-20230330222652572_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork/target/test-classes:/Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork/target/classes:/Users/sjebamalai/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/sjebamalai/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/sjebamalai/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/sjebamalai/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/sjebamalai/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/sjebamalai/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sjebamalai/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/sjebamalai/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/sjebamalai/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sjebamalai/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/sjebamalai/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/sjebamalai/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/sjebamalai/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/sjebamalai/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/sjebamalai/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/sjebamalai/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/sjebamalai/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/sjebamalai/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/sjebamalai/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/sjebamalai/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/sjebamalai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/sjebamalai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/sjebamalai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/sjebamalai/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/sjebamalai/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/sjebamalai/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sjebamalai/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sjebamalai/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/sjebamalai/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/sjebamalai/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/sjebamalai/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/sjebamalai/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/sjebamalai/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/sjebamalai/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/sjebamalai/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/sjebamalai/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sjebamalai/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/sjebamalai/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/sjebamalai/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/sjebamalai/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/sjebamalai/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/sjebamalai/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/sjebamalai/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/sjebamalai/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/sjebamalai/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/sjebamalai/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/sjebamalai/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/sjebamalai/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/sjebamalai/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/sjebamalai/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/sjebamalai/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/sjebamalai/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/sjebamalai/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/sjebamalai/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sjebamalai/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/sjebamalai/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/sjebamalai/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sjebamalai/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/sjebamalai/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/sjebamalai/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/sjebamalai/.m2/repository/org/apache/poi/poi-ooxml/5.2.2/poi-ooxml-5.2.2.jar:/Users/sjebamalai/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.2/poi-ooxml-lite-5.2.2.jar:/Users/sjebamalai/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar:/Users/sjebamalai/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/sjebamalai/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/sjebamalai/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/sjebamalai/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sjebamalai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork/target/surefire/surefirebooter-20230330222652572_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.2"/>
+    <property name="user.name" value="sjebamalai"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/sjebamalai/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/5x/3lg4d1rd17vbqtpf4v6f1ppr0000gn/T/"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/sjebamalai/Lilly_Workspace/APIAutomationFrameWork"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sjebamalai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="19.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="createUserTest[1010, testUser1, Jack, Candey, a@gmail.com, test@1, 123456789](1)" classname="api.test.DDForUserTests" time="1.561">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1010"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTest[1020, testUser2, Mil, Cam, b@gmail.com, test@2, 223456789](2)" classname="api.test.DDForUserTests" time="0.413">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:56 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1020"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTest[1030, testUser3, Nick, Vil, c@gmail.com, test@3, 333456789](3)" classname="api.test.DDForUserTests" time="0.414">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:56 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1030"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTest[1040, testUser4, Hin, Samy, d@gmail.com, test@4, 443456789](4)" classname="api.test.DDForUserTests" time="0.416">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:56 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1040"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserTest[testUser1](1)" classname="api.test.DDForUserTests" time="0.421">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "testUser1"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserTest[testUser2](2)" classname="api.test.DDForUserTests" time="0.412">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "testUser2"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserTest[testUser3](3)" classname="api.test.DDForUserTests" time="0.413">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "testUser3"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserTest[testUser4](4)" classname="api.test.DDForUserTests" time="0.409">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "testUser4"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTest" classname="api.test.UserTests" time="0.405">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "178737851"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserTest" classname="api.test.UserTests" time="0.413">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 31 Mar 2023 05:26:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 178737851,
+    "username": "chun.lowe",
+    "firstName": "Lori",
+    "lastName": "Hane",
+    "email": "malorie.rice@example.com",
+    "password": "fncg2",
+    "phone": "(940) 892-0261",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserTest" classname="api.test.UserTests" time="0.819">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "178737851"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser" classname="api.test.UserTests" time="0.407"/>
+</testsuite>

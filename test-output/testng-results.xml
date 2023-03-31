@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T21:58:30 PDT" name="PetUserSuite" finished-at="2023-03-30T21:58:33 PDT" duration-ms="3322">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T21:58:30 PDT" name="UserTest" finished-at="2023-03-30T21:58:33 PDT" duration-ms="3322">
+      <class name="api.test.UserTests2FromProperties">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.UserTests2FromProperties@2f177a4b]" started-at="2023-03-30T21:58:30 PDT" name="setUp" finished-at="2023-03-30T21:58:30 PDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUserTest()[pri:1, instance:api.test.UserTests2FromProperties@2f177a4b]" started-at="2023-03-30T21:58:30 PDT" name="createUserTest" finished-at="2023-03-30T21:58:31 PDT" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="getUserTest()[pri:2, instance:api.test.UserTests2FromProperties@2f177a4b]" started-at="2023-03-30T21:58:31 PDT" name="getUserTest" finished-at="2023-03-30T21:58:32 PDT" depends-on-methods="api.test.UserTests2FromProperties.createUserTest" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+        <test-method signature="updateUserTest()[pri:3, instance:api.test.UserTests2FromProperties@2f177a4b]" started-at="2023-03-30T21:58:32 PDT" name="updateUserTest" finished-at="2023-03-30T21:58:33 PDT" depends-on-methods="api.test.UserTests2FromProperties.getUserTest" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method signature="deleteUser()[pri:4, instance:api.test.UserTests2FromProperties@2f177a4b]" started-at="2023-03-30T21:58:33 PDT" name="deleteUser" finished-at="2023-03-30T21:58:33 PDT" depends-on-methods="api.test.UserTests2FromProperties.updateUserTest" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- api.test.UserTests2FromProperties -->
+    </test> <!-- UserTest -->
+  </suite> <!-- PetUserSuite -->
+</testng-results>

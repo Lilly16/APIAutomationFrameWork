@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetUserSuite">
+	<listeners>
+	<listener class-name="api.utilities.ExtentReporterNG">
+	</listener>
+	</listeners>
+  <test thread-count="5" name="UserTest">
+    <classes>
+    <class name="api.test.UserTests2FromProperties"></class>
+    <!--<class name="api.test.UserTests"/>-->
+         <!-- <class name="api.test.DDForUserTests"/> -->
+    </classes>
+  </test> <!-- UserTest -->
+</suite> <!-- PetUserSuite -->
